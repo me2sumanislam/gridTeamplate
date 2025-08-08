@@ -1,3 +1,37 @@
- h1{
-    color: aqua;
+ 
+ .container{
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr  1.4fr;
  }
+
+
+
+nav{
+    background-color: rgb(73, 154, 224);
+}
+
+
+main{
+    background-color: rgb(167, 115, 48);
+}
+
+#sidebar{
+    background-color: rgb(219, 66, 66);
+}
+
+
+#content1{
+    background-color: aqua;
+}
+#content2{
+     background-color: aquamarine;
+}
+#contente3{
+     background-color: rgb(57, 59, 184);
+}
+
+footer{
+    background-color: rgb(233, 233, 159);
+}
