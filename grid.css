@@ -4,34 +4,49 @@
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1.5fr 1.2fr  1.4fr;
+    grid-gap: 2px;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "sidebar main main main"
+     "sidebar content1 content2 content3"
+     "footer footer footer footer"
+    
+    ;
  }
 
 
 
 nav{
     background-color: rgb(73, 154, 224);
+    grid-area: nav;
 }
 
 
 main{
     background-color: rgb(167, 115, 48);
+    grid-area: main;
 }
 
 #sidebar{
     background-color: rgb(219, 66, 66);
+    grid-area: sidebar;
 }
 
 
 #content1{
     background-color: aqua;
+    grid-area: content1;
 }
 #content2{
      background-color: aquamarine;
+         grid-area: content2;
 }
 #contente3{
      background-color: rgb(57, 59, 184);
+         grid-area: content3;
 }
 
 footer{
     background-color: rgb(233, 233, 159);
+    grid-area: footer;
 }
